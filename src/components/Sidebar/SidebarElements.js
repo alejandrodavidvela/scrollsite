@@ -15,12 +15,12 @@ export const SidebarContainer = styled.aside`
     left: 0;
     transition: 0.3s ease-in-out;
     opacity: ${({isOpen}) => (isOpen ? '100%' : '0')};
-    top: ${({isOpen}) => (isOpen ? '0' : '100%')};
+    top: ${({isOpen}) => (isOpen ? '0' : '-100%')};
 `;
 
 
 export const CloseIcon = styled(FaTimes)`
-    color: #fff
+    color: #fff;
 `;
 
 export const Icon = styled.div`
@@ -81,7 +81,7 @@ export const SidebarRoute = styled(LinkR)`
    outline: none;
    border: none;
    cursor: pointer;
-   transistion: all 0.2s ease-in-out;
+   transition: all 0.2s ease-in-out;
    text-decoration: none;
 
    &:hover {
