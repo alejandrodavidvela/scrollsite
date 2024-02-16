@@ -1,6 +1,6 @@
 import React from 'react'
 import {animateScroll as scroll} from 'react-scroll'
-import {FaFacebook, FaInstagram, FaYoutube, FaTwitter, FaLinkedin} from 'react-icons/fa'
+import {FaFacebook, FaInstagram, FaLinkedin} from 'react-icons/fa'
 import {
     FooterContainer,
     FooterWrap,
@@ -49,41 +49,27 @@ const Footer = () => {
                     </FooterLinksWrapper>
                     <FooterLinksWrapper>
                         <FooterLinkItems>
-                            <FooterLinkTitle>Videos</FooterLinkTitle>
-                            <FooterLink to="/">Submit a Video</FooterLink>
-                            <FooterLink to="/">Ambassadors</FooterLink>
-                            <FooterLink to="/">Agency</FooterLink>
-                            <FooterLink to="/">Influencer</FooterLink>
-                        </FooterLinkItems>
-                        <FooterLinkItems>
                             <FooterLinkTitle>Social Media</FooterLinkTitle>
-                            <FooterLink to="/">Instagram</FooterLink>
-                            <FooterLink to="/">Facebook</FooterLink>
-                            <FooterLink to="/">Youtube</FooterLink>
-                            <FooterLink to="/">Twitter</FooterLink>
+                            <FooterLink to="https://www.instagram.com/hartfordveladesign">Instagram</FooterLink>
+                            <FooterLink to="https://www.facebook.com/hartfordveladesign">Facebook</FooterLink>
+                            <FooterLink to="https://www.instagram.com/hartfordveladesign">Linkedin</FooterLink>
                         </FooterLinkItems>
                     </FooterLinksWrapper>
                 </FooterLinksContainer>
                 <SocialMedia>
                     <SocialMediaWrap>
                         <SocialLogo to='/' onClick={toggleHome}>
-                            dolla
+                            HVD
                         </SocialLogo>
-                        <WebsiteRights>dolla © {new Date().getFullYear()} All Rights Reserved</WebsiteRights>
+                        <WebsiteRights>hvd © {new Date().getFullYear()} All Rights Reserved</WebsiteRights>
                         <SocialIcons>
-                            <SocialIconLink href='/' target='_blank' aria-label="Facebook">
+                            <SocialIconLink href='https://www.facebook.com/hartfordveladesign' target='_blank' aria-label="Facebook">
                                 <FaFacebook />
                             </SocialIconLink>
-                            <SocialIconLink href='/' target='_blank' aria-label="Instagram">
+                            <SocialIconLink href='https://www.instagram.com/hartfordveladesign' target='_blank' aria-label="Instagram">
                                 <FaInstagram />
                             </SocialIconLink>
-                            <SocialIconLink href='/' target='_blank' aria-label="Youtube">
-                                <FaYoutube />
-                            </SocialIconLink>
-                            <SocialIconLink href='/' target='_blank' aria-label="Twitter">
-                                <FaTwitter />
-                            </SocialIconLink>
-                            <SocialIconLink href='/' target='_blank' aria-label="Linkedin">
+                            <SocialIconLink href='https://www.instagram.com/hartfordveladesign' target='_blank' aria-label="LinkedIn">
                                 <FaLinkedin />
                             </SocialIconLink>
                         </SocialIcons>

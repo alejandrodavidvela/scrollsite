@@ -39,7 +39,7 @@ const Navbar = ({ toggle }) => {
         <Nav scrollNav={scrollNav}>
           <NavbarContainer>
             <NavLogo to="/" onClick={toggleHome}>
-              vela
+              HVD
             </NavLogo>
             <MobileIcon onClick={toggle}>
               <FaBars />
@@ -47,50 +47,26 @@ const Navbar = ({ toggle }) => {
             <NavMenu>
               <NavItem>
                 <NavLinks
-                  to="projects"
+                  to="portfolio"
                   smooth={true}
                   duration={500}
                   spy={true}
                   exact="true"
                   offset={-80}
                 >
-                  Projects
+                  Portfolio
                 </NavLinks>
               </NavItem>
               <NavItem>
                 <NavLinks
-                  to="experience"
+                  to="services"
                   smooth={true}
                   duration={500}
                   spy={true}
                   exact="true"
                   offset={-80}
                 >
-                  Experience
-                </NavLinks>
-              </NavItem>
-              <NavItem>
-                <NavLinks
-                  to="technologies"
-                  smooth={true}
-                  duration={500}
-                  spy={true}
-                  exact="true"
-                  offset={-80}
-                >
-                  Technologies
-                </NavLinks>
-              </NavItem>
-              <NavItem>
-                <NavLinks
-                  to="signup"
-                  smooth={true}
-                  duration={500}
-                  spy={true}
-                  exact="true"
-                  offset={-80}
-                >
-                  Sign Up
+                  Services
                 </NavLinks>
               </NavItem>
               <NavItem>
@@ -102,12 +78,12 @@ const Navbar = ({ toggle }) => {
                   exact="true"
                   offset={-80}
                 >
-                  About
+                  About Us
                 </NavLinks>
               </NavItem>
             </NavMenu>
             <NavBtn>
-              <NavBtnLink to="/signin">Sign In</NavBtnLink>
+              <NavBtnLink to="/signin">Enquire</NavBtnLink>
             </NavBtn>
           </NavbarContainer>
         </Nav>

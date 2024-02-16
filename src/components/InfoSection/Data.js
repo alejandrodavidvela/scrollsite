@@ -1,36 +1,20 @@
-export const homeObjOne = {
+export const homeObjAbout = {
     id: 'about',
-    lightBg: false,
-    lightText: true,
-    lightTextDesc: true,
-    topLine: 'Premium Bank',
-    headline: 'Unlimited Transactions with zero fees',
-    description: 'Get access to our exclusive app that allows you to send unlimited transactions without getting charged any fees',
-    buttonLabel: 'Get Started',
-    imgStart: false,
-    img: require('../../images/svg-4.svg').default,
-    alt: 'Car',
-    dark: true,
-    primary: true,
-    darkText: false
-};
-
-export const homeObjTwo = {
-    id: 'discover',
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
-    topLine: 'Unlimited Access',
-    headline: 'Login to your account at any time',
-    description: 'We have you covered no matter where you are located. All you need is an internet connection and a phone or computer.',
-    buttonLabel: 'Learn More',
-    imgStart: true,
-    img: require('../../images/svg-3.svg').default,
-    alt: 'Piggy Bank',
+    topLine: 'Meet The Team',
+    headline: 'Austin based Design and Marketing Agency',
+    description: 'Andrew grew up in San Antonio, TX and has been in Austin since coming to UT in 2011.  He has keen interest in cycling, urban issues, local culture, and placemaking.',
+    buttonLabel: 'Get Started',
+    imgStart: false,
+    img: require('../../images/svg-4.svg').default,
+    alt: 'Andrew',
     dark: false,
     primary: false,
     darkText: true
 };
+
 
 export const homeObjThree = {
     id: 'signup',
@@ -48,3 +32,21 @@ export const homeObjThree = {
     primary: false,
     darkText: true
 };
+
+export const homeObjPortfolio = {
+    id: 'portfolio',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
+    topLine: 'Portfolio',
+    headline: 'Checkout all of our work',
+    description: "We have worked with clients just like you.",
+    buttonLabel: 'Start Now',
+    imgStart: false,
+    img: require('../../images/svg-2.svg').default,
+    alt: 'Portfolio',
+    dark: false,
+    primary: false,
+    darkText: true
+};
+
