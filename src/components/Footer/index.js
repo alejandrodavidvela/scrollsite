@@ -50,9 +50,9 @@ const Footer = () => {
                     <FooterLinksWrapper>
                         <FooterLinkItems>
                             <FooterLinkTitle>Social Media</FooterLinkTitle>
-                            <FooterLink to="https://www.instagram.com/hartfordveladesign">Instagram</FooterLink>
-                            <FooterLink to="https://www.facebook.com/hartfordveladesign">Facebook</FooterLink>
-                            <FooterLink to="https://www.instagram.com/hartfordveladesign">Linkedin</FooterLink>
+                            <a href="https://www.instagram.com/hartfordveladesign">Instagram</a>
+                            <a href="https://www.facebook.com/hartfordveladesign">Facebook</a>
+                            <a href="https://www.instagram.com/hartfordveladesign">Linkedin</a>
                         </FooterLinkItems>
                     </FooterLinksWrapper>
                 </FooterLinksContainer>

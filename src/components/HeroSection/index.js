@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import Video from '../../videos/video.mp4'
-import {Button} from '../ButtonElement'
+
+
 import {
     HeroContainer,
     HeroBg,
@@ -9,8 +10,7 @@ import {
     HeroH1,
     HeroP,
     HeroBtnWrapper,
-    ArrowForward,
-    ArrowRight
+
 
 } from '../HeroSection/HeroElements'
 
@@ -33,20 +33,9 @@ const HeroSection = () => {
                     Never lose business because of a missed call again
                 </HeroP>
                 <HeroBtnWrapper>
-                    <Button 
-                        to="signup" 
-                        onMouseEnter={onHover} 
-                        onMouseLeave={onHover}
-                        primary='true'
-                        dark='true'
-                        smooth={true}
-                            duration={500}
-                            spy={true}
-                            exact='true'
-                            offset={-80}
-                    >
-                        Get Started {hover ? <ArrowForward /> : <ArrowRight />}
-                    </Button>
+                    <a class="enquire-button" href="https://mctb.hartfordveladesign.com">
+                    Get Started
+                    </a>
                 </HeroBtnWrapper>
             </HeroContent>
         </HeroContainer>

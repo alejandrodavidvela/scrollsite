@@ -16,6 +16,9 @@ export const Button = styled(Link)`
     align-items: center;
     transition: all 0.2s ease-in-out;
 
+    z-index: 0;
+    position: relative;
+
     &:hover {
         transition: all 0.2s ease-in-out;
         background: ${({primary}) => (primary ? '#fff' : '#01BF71')};

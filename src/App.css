@@ -4,3 +4,42 @@
   padding: 0;
   font-family: 'Encode Sans Expanded';
 }
+
+
+a {
+    color: #fff;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    font-size: 14px;
+}
+
+a:hover {
+    color: #01bf71;
+}
+
+.enquire-button {
+    border-radius: 50px;
+    background-color: #01BF71;
+    padding: 14px 48px;
+    color: #ffffff;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+
+    z-index: 0;
+    position: relative;
+}
+
+.enquire-button:hover {
+    background-color: white;
+    color: black;
+}
